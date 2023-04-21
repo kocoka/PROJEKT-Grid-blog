@@ -10,6 +10,9 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	width: 100%;
+	display:flex;
+	justify-content: center;
+	background-color: black;
 }
 
 h1, h2, h3 {
@@ -70,12 +73,14 @@ blockquote {
 
 .blog{
 	display:inline-block;
-	max-width: 100%;
+	max-width: 80%;
 	display: grid;
 	grid-template-columns: 1fr 4fr 2fr;
 	gap: 20px 40px;
-	align-content: center;
+	background-color:white;
+	padding: 20px;
 }
+
 header{
 	grid-column: 2;
 	margin-bottom: -40px;
