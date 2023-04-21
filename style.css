@@ -169,3 +169,30 @@ blockquote::after{
 footer a{
 	color:#b2bec3;
 }
+
+@media screen and (max-width:600px){
+	body{
+		background-color: white;
+	}
+	.blog{
+		max-width: 100%;
+	}
+	header{
+		grid-column: 1/-1;
+		text-align: center;
+	}
+	p{
+		grid-column: 1/-1;
+	}
+	.tip-vlevo{
+		grid-column: 2;
+	}
+	.tip-vpravo{
+		grid-column: 2;
+		border-right: #ee5a24 solid 3px;
+		border-left: 0;
+	}
+	footer{
+		grid-column: 1/-1;
+	}
+}
